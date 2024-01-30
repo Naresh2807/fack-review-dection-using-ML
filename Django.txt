@@ -1,0 +1,52 @@
+Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It follows the Model-View-Controller (MVC) architectural pattern and includes an Object-Relational Mapping (ORM) system for database interactions.
+
+Here's a brief overview of how to get started with Django:
+
+Install Django:
+You can install Django using pip, the Python package installer. Open your terminal or command prompt and run:
+
+Copy code
+pip install Django
+Create a Django Project:
+After installing Django, you can create a new project using the following command:
+
+Copy code
+django-admin startproject projectname
+Replace "projectname" with the desired name for your project.
+
+Navigate to Your Project:
+Change into the project directory:
+
+bash
+Copy code
+cd projectname
+Run Migrations:
+Django uses migrations to manage database schema changes. Run the following commands to apply migrations:
+
+Copy code
+python manage.py makemigrations
+python manage.py migrate
+Create a Django App:
+Django projects are made up of apps. You can create a new app using the following command:
+
+Copy code
+python manage.py startapp appname
+Replace "appname" with the desired name for your app.
+
+Define Models:
+In your app, define models in the models.py file. Models represent database tables.
+
+Create Superuser:
+To interact with the Django admin interface, create a superuser using the following command:
+
+Copy code
+python manage.py createsuperuser
+Run the Development Server:
+Start the development server to see your application in action:
+
+Copy code
+python manage.py runserver
+Visit http://localhost:8000 in your web browser to view your Django app.
+
+Explore Django Documentation:
+Django has comprehensive documentation available at https://docs.djangoproject.com/. It covers all aspects of the framework and is a valuable resource as you develop your project
